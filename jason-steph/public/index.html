@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="vendor/styles/railscasts.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 
+<!-- ////// -->
+<script id="entry-template" type="text/x-handlebars-template">
+  <li class="entry">
+    <h1>{{author}}</h1>
+      <p>{{articleCount}}</p>
+      <p>{{wordCount}}</p>
+  </li>
+ </script>
+
+<!-- ////// -->
     <script id="article-template" type="text/x-handlebars-template">
       <article class="clearfix" data-author="{{author}}" data-category="{{category}}">
         <header>
